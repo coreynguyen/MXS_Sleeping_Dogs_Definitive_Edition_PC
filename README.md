@@ -1,6 +1,6 @@
 # Sleeping Dogs Definitive Edition 3D Model Importer
 
-This tool is designed to import 3D models from the game binary of **Sleeping Dogs: Definitive Edition for PC**, using Maxscript.
+This tool is designed to import and export 3D character models from the game binary of **Sleeping Dogs: Definitive Edition for PC**, using Maxscript.
 
 ## Overview
 
@@ -9,6 +9,7 @@ The tool is developed to parse and import 3D model data from the game files of S
 ## Features
 
 - **Model Import:** Import 3D models directly from game binaries.
+- **Model Export:** Export 3D models directly to game binaries.
 - **Data Parsing:** Extracts mesh information, vertices, normals, textures, and face indices.
 - **Compatibility:** Works with **3DS Max** for further editing and manipulation.
 
@@ -50,6 +51,13 @@ The interface is divided into two groups: **Skeleton** and **Mesh**.
 5. **Press Build** to create the skeleton in the scene.
 6. **Select the `*.perm.bin`** file using the **Import** button in the **Mesh** group.
 7. The mesh will be built into the scene with weights and UVs applied.
+
+### Steps to Import Models
+
+1. **Load the script** in 3DS Max.
+2. You will need to have imported an existing character to replace
+3. **Press Export** to pick a destintion file
+5. The mesh will saved to the new file
 
 ## Acknowledgements
 
