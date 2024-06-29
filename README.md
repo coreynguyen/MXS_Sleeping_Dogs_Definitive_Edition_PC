@@ -52,7 +52,7 @@ The interface is divided into two groups: **Skeleton** and **Mesh**.
 6. **Select the `*.perm.bin`** file using the **Import** button in the **Mesh** group.
 7. The mesh will be built into the scene with weights and UVs applied.
 
-### Steps to Import Models
+### Steps to Export Models
 
 1. **Load the script** in 3DS Max.
 2. You will need to have imported an existing character to replace
